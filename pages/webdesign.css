@@ -1,0 +1,207 @@
+@font-face {
+    font-family: "Now";
+    src: url(../font/NowAlt-Light.otf);
+}
+body {
+    background-image: linear-gradient(12deg, rgba(193, 193, 193,0.05) 0%, rgba(193, 193, 193,0.05) 2%,rgba(129, 129, 129,0.05) 2%, rgba(129, 129, 129,0.05) 27%,rgba(185, 185, 185,0.05) 27%, rgba(185, 185, 185,0.05) 66%,rgba(83, 83, 83,0.05) 66%, rgba(83, 83, 83,0.05) 100%),linear-gradient(321deg, rgba(240, 240, 240,0.05) 0%, rgba(240, 240, 240,0.05) 13%,rgba(231, 231, 231,0.05) 13%, rgba(231, 231, 231,0.05) 34%,rgba(139, 139, 139,0.05) 34%, rgba(139, 139, 139,0.05) 71%,rgba(112, 112, 112,0.05) 71%, rgba(112, 112, 112,0.05) 100%),linear-gradient(236deg, rgba(189, 189, 189,0.05) 0%, rgba(189, 189, 189,0.05) 47%,rgba(138, 138, 138,0.05) 47%, rgba(138, 138, 138,0.05) 58%,rgba(108, 108, 108,0.05) 58%, rgba(108, 108, 108,0.05) 85%,rgba(143, 143, 143,0.05) 85%, rgba(143, 143, 143,0.05) 100%),linear-gradient(96deg, rgba(53, 53, 53,0.05) 0%, rgba(53, 53, 53,0.05) 53%,rgba(44, 44, 44,0.05) 53%, rgba(44, 44, 44,0.05) 82%,rgba(77, 77, 77,0.05) 82%, rgba(77, 77, 77,0.05) 98%,rgba(8, 8, 8,0.05) 98%, rgba(8, 8, 8,0.05) 100%),linear-gradient(334deg, hsl(247,0%,2%),hsl(247,0%,2%));
+}
+*{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+header{
+    height: 55px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.W{
+    list-style: none;
+    margin-right: 130px;
+    font-family: "Now" ;
+    color: white;
+    font-weight: bold;
+    border-bottom:rgb(0, 255, 0) solid 3px ;
+}
+
+.P{
+    list-style: none;
+    margin-right: 130px;
+    font-family: "Now" ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.P:hover{
+    font-family: "Now" ;
+    color: white;
+    font-weight: bold;
+    border-bottom:rgb(0, 60, 255) solid 3px ;
+}
+.I{
+    list-style: none;
+    margin-right: 130px;
+    font-family: "Now" ;
+    color: white;
+}
+.I:hover{
+    color: white;
+    font-weight: bold;
+    border-bottom:orange solid 3px ;
+}
+
+.C{
+    list-style: none;
+    font-family: "Now" ;
+    color: white;
+}
+.C:hover{
+    color: white;
+    font-weight: bold;
+    border-bottom: rgb(170, 0, 255) solid 3px;
+}
+ul{
+    display: flex;
+    padding-top: 10px;
+}
+
+.logo{
+   width: 200px;
+   height: 55px;
+}
+main{
+    height: 575px;
+}
+
+.wire2{
+    width: 216px;
+    margin-right: 5px;
+}
+.wire2left{
+    width: 216px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-right: 5px;
+}
+.wire{
+    width: 177.5px;
+    margin-right: 5px;
+}
+.presentationxs{
+    margin-left: 60px;
+    margin-bottom: 10px;
+    display: flex;
+    width: 1100px;
+    filter: brightness(0.4);
+    transition: .95s;
+}
+.presentationxs:hover{
+    filter: brightness(1);
+}
+.mockupxs{
+    width: 597.6px;
+    height: 467px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.presentationredchilie{
+    margin-left: 60px;
+    margin-bottom: 10px;
+    display: flex;
+    filter: brightness(0.4);
+    margin-right: 60px;
+    margin-top: 25px;
+    transition: .95s;
+}
+.presentationredchilie:hover{
+    filter: brightness(1);
+}
+.red1{
+    width: 240px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-right: 5px;
+}
+.red2{
+    width: 240px;
+    margin-right: 5px;
+
+}
+.mockupredchilie{
+    width: 914px;
+    height: 519.5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.presentationgps{
+    margin-left: 60px;
+    display: flex;
+    filter: brightness(0.4);
+    margin-right: 60px;
+    transition: .95s;
+}
+.presentationgps:hover{
+    filter: brightness(1);
+}
+
+.gps1{
+    height: 530px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-right: 5px;
+}
+.gps2{
+    height: 530px;
+    margin-right: 5px;
+
+}
+.gps3{
+    height: 530px;
+    margin-right: 5px;
+
+}
+.mockupgps{
+    width: 824px;
+    height: 532px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.developed{
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: white;
+}

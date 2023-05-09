@@ -1,0 +1,337 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+@font-face {
+    font-family: "Now";
+    src: url(font/NowAlt-Light.otf);
+}
+body {
+    background-image: linear-gradient(12deg, rgba(193, 193, 193,0.05) 0%, rgba(193, 193, 193,0.05) 2%,rgba(129, 129, 129,0.05) 2%, rgba(129, 129, 129,0.05) 27%,rgba(185, 185, 185,0.05) 27%, rgba(185, 185, 185,0.05) 66%,rgba(83, 83, 83,0.05) 66%, rgba(83, 83, 83,0.05) 100%),linear-gradient(321deg, rgba(240, 240, 240,0.05) 0%, rgba(240, 240, 240,0.05) 13%,rgba(231, 231, 231,0.05) 13%, rgba(231, 231, 231,0.05) 34%,rgba(139, 139, 139,0.05) 34%, rgba(139, 139, 139,0.05) 71%,rgba(112, 112, 112,0.05) 71%, rgba(112, 112, 112,0.05) 100%),linear-gradient(236deg, rgba(189, 189, 189,0.05) 0%, rgba(189, 189, 189,0.05) 47%,rgba(138, 138, 138,0.05) 47%, rgba(138, 138, 138,0.05) 58%,rgba(108, 108, 108,0.05) 58%, rgba(108, 108, 108,0.05) 85%,rgba(143, 143, 143,0.05) 85%, rgba(143, 143, 143,0.05) 100%),linear-gradient(96deg, rgba(53, 53, 53,0.05) 0%, rgba(53, 53, 53,0.05) 53%,rgba(44, 44, 44,0.05) 53%, rgba(44, 44, 44,0.05) 82%,rgba(77, 77, 77,0.05) 82%, rgba(77, 77, 77,0.05) 98%,rgba(8, 8, 8,0.05) 98%, rgba(8, 8, 8,0.05) 100%),linear-gradient(334deg, hsl(247,0%,2%),hsl(247,0%,2%));
+}
+*{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.navigation{
+    margin-top: 10px;
+}
+header{
+    height: 80px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.W{
+    list-style: none;
+    margin-right: 130px;
+    font-family: "Now" ;
+    color: white;
+}
+.W:hover{
+    color: white;
+    font-weight: bold;
+    border-bottom:rgb(0, 255, 0) solid 3px ;
+}
+.P{
+    list-style: none;
+    margin-right: 130px;
+    font-family: "Now" ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.P:hover{
+    font-family: "Now" ;
+    color: white;
+    font-weight: bold;
+    border-bottom:rgb(0, 60, 255) solid 3px ;
+}
+.I{
+    list-style: none;
+    margin-right: 130px;
+    font-family: "Now" ;
+    color: white;
+}
+.I:hover{
+    color: white;
+    font-weight: bold;
+    border-bottom:orange solid 3px ;
+}
+
+.C{
+    list-style: none;
+    font-family: "Now" ;
+    color: white;
+}
+.C:hover{
+    color: white;
+    font-weight: bold;
+    border-bottom: rgb(170, 0, 255) solid 3px;
+}
+ul{
+    display: flex;
+    padding-top: 10px;
+}
+
+.logo{
+    width: 200px;
+    height: 55px;
+}
+.presentationxs{
+    margin-left: 60px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.mockupxs{
+    width: 597px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.presentationredchilie{
+    margin-left: 60px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.red1{
+    width: 240px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.red2{
+    width: 240px;
+}
+.mockupredchilie{
+    width: 929px;
+    height: 519.5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.xs{
+    width: 1400px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    filter: brightness(0.4);
+    transition: .95s;
+}
+.xs:hover{
+    filter: brightness(1);
+}
+
+.presentation{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(306deg, rgba(54, 54, 54, 0.05) 0%, rgba(54, 54, 54, 0.05) 33.333%,rgba(85, 85, 85, 0.05) 33.333%, rgba(85, 85, 85, 0.05) 66.666%,rgba(255, 255, 255, 0.05) 66.666%, rgba(255, 255, 255, 0.05) 99.999%),linear-gradient(353deg, rgba(81, 81, 81, 0.05) 0%, rgba(81, 81, 81, 0.05) 33.333%,rgba(238, 238, 238, 0.05) 33.333%, rgba(238, 238, 238, 0.05) 66.666%,rgba(32, 32, 32, 0.05) 66.666%, rgba(32, 32, 32, 0.05) 99.999%),linear-gradient(140deg, rgba(192, 192, 192, 0.05) 0%, rgba(192, 192, 192, 0.05) 33.333%,rgba(109, 109, 109, 0.05) 33.333%, rgba(109, 109, 109, 0.05) 66.666%,rgba(30, 30, 30, 0.05) 66.666%, rgba(30, 30, 30, 0.05) 99.999%),linear-gradient(189deg, rgba(77, 77, 77, 0.05) 0%, rgba(77, 77, 77, 0.05) 33.333%,rgba(55, 55, 55, 0.05) 33.333%, rgba(55, 55, 55, 0.05) 66.666%,rgba(145, 145, 145, 0.05) 66.666%, rgba(145, 145, 145, 0.05) 99.999%),linear-gradient(90deg, rgb(9, 201, 186),rgb(18, 131, 221));    max-width: 1400px;
+    color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius : 15px;
+    max-width: 1423px;
+    filter: brightness(0.4);
+    transition: .95s;
+    width: 1400px;
+}
+.presentation:hover{
+    filter: brightness(1);
+}
+
+.quiplusparc{
+    margin-right: 50px;
+}
+.qui{
+    font-family:sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: 50px; 
+}
+
+.moi{
+    font-family: "Now";
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 9pt;
+}
+
+.Parcours{
+    font-family:sans-serif;
+    font-size: 16pt;
+    margin-left: 60px;
+    margin-top: 65px;
+    font-weight: bold;
+}
+.dparcours{
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+.prc{
+    list-style: none;
+    margin-right: 130px;
+    font-family: "Now" ;
+    font-size: 9pt;
+    margin-left: 60px;
+    margin-top: 10px;
+    line-height: 20px;
+
+}
+.photomoi{
+    height: 340px;
+    margin-left: 10px;
+}
+.Pparcours{
+    margin-top: 30px;
+}
+.Professionnel{
+    font-family:sans-serif; 
+    font-size: 16pt;
+    margin-left: 60px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.prcP{
+    list-style: none;
+    margin-right: 130px;
+    font-family: "Now" ;
+    font-size: 9pt;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.lieux{
+    margin-top: 6px;
+}
+.competimg{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+.logiciels{
+    height: 140px;
+}
+.Competences{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.formulaire{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-image: linear-gradient(306deg, rgba(54, 54, 54, 0.05) 0%, rgba(54, 54, 54, 0.05) 33.333%,rgba(85, 85, 85, 0.05) 33.333%, rgba(85, 85, 85, 0.05) 66.666%,rgba(255, 255, 255, 0.05) 66.666%, rgba(255, 255, 255, 0.05) 99.999%),linear-gradient(353deg, rgba(81, 81, 81, 0.05) 0%, rgba(81, 81, 81, 0.05) 33.333%,rgba(238, 238, 238, 0.05) 33.333%, rgba(238, 238, 238, 0.05) 66.666%,rgba(32, 32, 32, 0.05) 66.666%, rgba(32, 32, 32, 0.05) 99.999%),linear-gradient(140deg, rgba(192, 192, 192, 0.05) 0%, rgba(192, 192, 192, 0.05) 33.333%,rgba(109, 109, 109, 0.05) 33.333%, rgba(109, 109, 109, 0.05) 66.666%,rgba(30, 30, 30, 0.05) 66.666%, rgba(30, 30, 30, 0.05) 99.999%),linear-gradient(189deg, rgba(77, 77, 77, 0.05) 0%, rgba(77, 77, 77, 0.05) 33.333%,rgba(55, 55, 55, 0.05) 33.333%, rgba(55, 55, 55, 0.05) 66.666%,rgba(145, 145, 145, 0.05) 66.666%, rgba(145, 145, 145, 0.05) 99.999%),linear-gradient(90deg, rgb(9, 201, 186),rgb(18, 131, 221));    max-width: 1400px;
+    filter: brightness(0.4);
+    transition: .95s;
+    width: 1400px;
+}
+.formulaire:hover{
+    filter: brightness(1);
+}
+.inscription{
+    width: 300px;
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-right: 70px;
+
+}
+.titre{
+    color: white;
+    font-family: "Now";
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.inscrivezvous{
+    color: white;
+    font-family: "Now";
+    font-weight: light;
+    font-size: 10pt;
+}
+.renseignement{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.adresse{
+    color: white;
+    font-family: "Now";
+    font-weight: bold;
+    font-size: 20px;
+}
+.mail{
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: white solid 2px;
+    background-color:rgb(232, 232, 232) ;
+}
+.bouton{
+    width: 150px;
+    height: 37px;
+    border: rgb(37, 37, 37)solid 3px;
+    border-radius: 5px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.iplusr{
+    display: flex;
+    margin: auto;
+}
+.mailplusmsg{
+    display: flex;
+}
+textarea{
+    margin-top: 10px;
+    width: 400px;
+    height: 80px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: white solid 2px;
+    background-color:rgb(232, 232, 232) ;
+}
+.mecontacter{
+    display: flex;
+    flex-direction: column;
+}
+.resaux{
+    margin-top: 84px;
+    margin-right: 100px;
+}
+.linkedin{
+    width: 40px;
+    margin-right: 15px;
+}
+.insta{
+    width: 40px;
+}
+
+.developed{
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: white;
+}
+footer{
+   padding-bottom: 8px;
+}
+
+
