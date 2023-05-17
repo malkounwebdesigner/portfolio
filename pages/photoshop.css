@@ -72,7 +72,9 @@ ul{
     display: flex;
     padding-top: 10px;
 }
-
+.navigation{
+    margin-top: 10px;
+}
 .logo{
     width: 200px;
     height: 55px;

@@ -72,6 +72,9 @@ ul{
     display: flex;
     padding-top: 10px;
 }
+.navigation{
+    margin-top: 10px;
+}
 
 .logo{
    width: 200px;
@@ -121,6 +124,8 @@ main{
     margin-right: 60px;
     margin-top: 25px;
     transition: .95s;
+    width: 92.3%;
+
 }
 .presentationredchilie:hover{
     filter: brightness(1);
