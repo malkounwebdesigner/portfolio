@@ -17,6 +17,7 @@ body {
 .navigation{
     margin-top: 10px;
 }
+
 header{
     height: 80px;
 }
@@ -117,15 +118,11 @@ ul{
     border-bottom-right-radius: 15px;
 }
 .xs{
-    width: 1400px;
+    width: 92.3%;
     margin-left: 60px;
     margin-bottom: 10px;
     border-radius: 15px;
-    filter: brightness(0.4);
     transition: .95s;
-}
-.xs:hover{
-    filter: brightness(1);
 }
 
 .presentation{
@@ -136,14 +133,9 @@ ul{
     margin-left: 60px;
     margin-right: 60px;
     border-radius : 15px;
-    max-width: 1423px;
-    filter: brightness(0.4);
-    transition: .95s;
-    width: 1400px;
+    width: 92.3%;
 }
-.presentation:hover{
-    filter: brightness(1);
-}
+
 
 .quiplusparc{
     margin-right: 50px;
@@ -182,7 +174,6 @@ ul{
     margin-left: 60px;
     margin-top: 10px;
     line-height: 20px;
-
 }
 .photomoi{
     height: 340px;
@@ -233,14 +224,10 @@ ul{
     border-radius: 15px;
     margin-left: 60px;
     margin-right: 60px;
-    background-image: linear-gradient(306deg, rgba(54, 54, 54, 0.05) 0%, rgba(54, 54, 54, 0.05) 33.333%,rgba(85, 85, 85, 0.05) 33.333%, rgba(85, 85, 85, 0.05) 66.666%,rgba(255, 255, 255, 0.05) 66.666%, rgba(255, 255, 255, 0.05) 99.999%),linear-gradient(353deg, rgba(81, 81, 81, 0.05) 0%, rgba(81, 81, 81, 0.05) 33.333%,rgba(238, 238, 238, 0.05) 33.333%, rgba(238, 238, 238, 0.05) 66.666%,rgba(32, 32, 32, 0.05) 66.666%, rgba(32, 32, 32, 0.05) 99.999%),linear-gradient(140deg, rgba(192, 192, 192, 0.05) 0%, rgba(192, 192, 192, 0.05) 33.333%,rgba(109, 109, 109, 0.05) 33.333%, rgba(109, 109, 109, 0.05) 66.666%,rgba(30, 30, 30, 0.05) 66.666%, rgba(30, 30, 30, 0.05) 99.999%),linear-gradient(189deg, rgba(77, 77, 77, 0.05) 0%, rgba(77, 77, 77, 0.05) 33.333%,rgba(55, 55, 55, 0.05) 33.333%, rgba(55, 55, 55, 0.05) 66.666%,rgba(145, 145, 145, 0.05) 66.666%, rgba(145, 145, 145, 0.05) 99.999%),linear-gradient(90deg, rgb(9, 201, 186),rgb(18, 131, 221));    max-width: 1400px;
-    filter: brightness(0.4);
-    transition: .95s;
-    width: 1400px;
+    background-image: linear-gradient(306deg, rgba(54, 54, 54, 0.05) 0%, rgba(54, 54, 54, 0.05) 33.333%,rgba(85, 85, 85, 0.05) 33.333%, rgba(85, 85, 85, 0.05) 66.666%,rgba(255, 255, 255, 0.05) 66.666%, rgba(255, 255, 255, 0.05) 99.999%),linear-gradient(353deg, rgba(81, 81, 81, 0.05) 0%, rgba(81, 81, 81, 0.05) 33.333%,rgba(238, 238, 238, 0.05) 33.333%, rgba(238, 238, 238, 0.05) 66.666%,rgba(32, 32, 32, 0.05) 66.666%, rgba(32, 32, 32, 0.05) 99.999%),linear-gradient(140deg, rgba(192, 192, 192, 0.05) 0%, rgba(192, 192, 192, 0.05) 33.333%,rgba(109, 109, 109, 0.05) 33.333%, rgba(109, 109, 109, 0.05) 66.666%,rgba(30, 30, 30, 0.05) 66.666%, rgba(30, 30, 30, 0.05) 99.999%),linear-gradient(189deg, rgba(77, 77, 77, 0.05) 0%, rgba(77, 77, 77, 0.05) 33.333%,rgba(55, 55, 55, 0.05) 33.333%, rgba(55, 55, 55, 0.05) 66.666%,rgba(145, 145, 145, 0.05) 66.666%, rgba(145, 145, 145, 0.05) 99.999%),linear-gradient(90deg, rgb(9, 201, 186),rgb(18, 131, 221));
+    width: 92.5%;
 }
-.formulaire:hover{
-    filter: brightness(1);
-}
+
 .inscription{
     width: 300px;
     padding-top:30px;
